@@ -1,13 +1,11 @@
 package com.kevin.evaluacioncontinua03.model;
 
-public class Music {
+public class Platillo {
     private String name;
-    private String artist;
     private String imgUrl;
 
-    public Music(String name, String artist, String imgUrl){
+    public Platillo(String name, String imgUrl) {
         this.name = name;
-        this.artist = artist;
         this.imgUrl = imgUrl;
     }
 
@@ -19,14 +17,6 @@ public class Music {
         this.name = name;
     }
 
-    public String getArtist() {
-        return artist;
-    }
-
-    public void setArtist(String artist) {
-        this.artist = artist;
-    }
-
     public String getImgUrl() {
         return imgUrl;
     }
@@ -35,5 +25,3 @@ public class Music {
         this.imgUrl = imgUrl;
     }
 }
-
-
