@@ -48,12 +48,12 @@ public class HomeFragment extends Fragment {
 
     private List<Platillo> getData(){
         List<Platillo> platillo = new ArrayList<>();
-        platillo.add(new PlatoPrincipal("Lomo saltado", "https://buenazo.cronosmedia.glr.pe/original/2022/06/20/62aea00d119a8801813a563b.jpg", "Plato Peruano"));
-        platillo.add(new PlatoPrincipal("Arroz con Pollo", "https://comeperuano.b-cdn.net/wp-content/uploads/2022/07/receta-de-arroz-con-pollo.jpg", "Rico plato"));
-        platillo.add(new PlatoPrincipal("Tallarin Rojo", "https://elcomercio.pe/resizer/c-a5HfyhpXUtirIx5R290y5Io98=/980x528/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/2XAQHTATIVBUVGNMF737X6SV4E.jpg", "Plato Delicioso"));
-        platillo.add(new Postre("Pudin", "https://images.hola.com/imagenes/cocina/recetas/20201107178784/pudin-de-vainilla-y-caramelo/0-886-694/pudin-adobe-t.jpg","Rico Postres"));
-        platillo.add(new Postre("Picarones", "https://www.peru.travel/Contenido/General/Imagen/es/301/1.1/picarones.jpg","Postre delicioso"));
-        platillo.add(new Postre("Alfajores", "https://444d1936e2.cbaul-cdnwnd.com/70a187c99bf664e524fb9222753e090e/system_preview_detail_200000349-c5cefc6c56-public/alfajores-peruanos-de-el-alfajor.jpg","Alfajores deliciosos"));
+        platillo.add(new PlatoPrincipal("Lomo saltado", "https://buenazo.cronosmedia.glr.pe/original/2022/06/20/62aea00d119a8801813a563b.jpg", "Plato con Carne y Papas"));
+        platillo.add(new PlatoPrincipal("Arroz con Pollo", "https://comeperuano.b-cdn.net/wp-content/uploads/2022/07/receta-de-arroz-con-pollo.jpg", "Viene con Papa a la Huancaina"));
+        platillo.add(new PlatoPrincipal("Tallarin Rojo", "https://elcomercio.pe/resizer/c-a5HfyhpXUtirIx5R290y5Io98=/980x528/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/2XAQHTATIVBUVGNMF737X6SV4E.jpg", "Platon con Crema"));
+        platillo.add(new Postre("Pudin", "https://images.hola.com/imagenes/cocina/recetas/20201107178784/pudin-de-vainilla-y-caramelo/0-886-694/pudin-adobe-t.jpg","Postres bien Dulce"));
+        platillo.add(new Postre("Picarones", "https://www.peru.travel/Contenido/General/Imagen/es/301/1.1/picarones.jpg","Viene bañado en miel "));
+        platillo.add(new Postre("Alfajores", "https://444d1936e2.cbaul-cdnwnd.com/70a187c99bf664e524fb9222753e090e/system_preview_detail_200000349-c5cefc6c56-public/alfajores-peruanos-de-el-alfajor.jpg","Viene con mermelada"));
         return platillo;
     }
 }

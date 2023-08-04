@@ -49,7 +49,7 @@ public class PrincipalActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         if (item.getItemId() == R.id.opcion) {
-            Snackbar.make(binding.getRoot(), "Settings", Snackbar.LENGTH_SHORT).show();
+            Snackbar.make(binding.getRoot(), "Menu", Snackbar.LENGTH_SHORT).show();
             return true;
         } else {
             return false;
